@@ -1,0 +1,303 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=VT323&display=swap");
+
+* {
+  margin: 0 auto;
+  padding: 0 auto;
+  font-family: "Poppins", sans-serif;
+  box-sizing: border-box;
+}
+
+body {
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: 100%;
+}
+
+header {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+header #menu ul {
+  display: flex;
+  gap: 28px;
+  padding-top: 4%;
+  padding-bottom: 6%;
+}
+
+header li {
+  list-style: none;
+}
+
+#logom {
+  display: flex;
+  margin-top: 6%;
+  margin-bottom: 8%;
+}
+
+#fazenda {
+  width: 100%;
+  margin-bottom: -1%;
+}
+
+#apresentacao {
+  background-color: RGB(247, 230, 144);
+  padding: 36px 24px;
+}
+
+.container h1 {
+  text-align: center;
+  font-size: 40px;
+  color: #54c0d6;
+  text-shadow: #1a1a1aec 0.1em 0.1em 0.1em;
+}
+
+.container h2 {
+  padding: 40px;
+  text-align: center;
+  font-size: 22px;
+  margin-left: 16px;
+  margin-right: 16px;
+}
+
+.container p {
+  padding: 10px;
+  text-align: center;
+  font-size: 16px;
+  margin-left: 40px;
+  margin-right: 40px;
+}
+
+#imgc ul li img {
+  max-width: 500px;
+}
+
+#imgc ul {
+  list-style: none;
+  text-align: center;
+}
+
+#chi img {
+  position: absolute;
+  top: 0;
+  right: 2px;
+  width: 90px;
+}
+
+.rodape1 {
+  text-align: center;
+  font-size: 14px;
+  background-color: RGB(247, 230, 144);
+  padding-bottom: 2%;
+}
+
+.rodape1 span {
+  font-family: sans-serif;
+}
+
+#img1 img {
+  height: 140px;
+  padding: 0px;
+  margin: 0;
+  position: absolute;
+  top: 2350px;
+  right: 30px;
+  bottom: 10px;
+}
+
+.video {
+  position: fixed;
+  right: 0;
+  bottom: 0;
+  min-width: 100%;
+  min-height: 100%;
+  width: 100px;
+  height: 100px;
+  z-index: -1000;
+  max-width: 100%;
+}
+
+header #menu2 ul {
+  display: flex;
+  gap: 28px;
+  padding-top: 4%;
+  padding-bottom: 6%;
+}
+
+#imghist {
+  display: flex;
+  width: 140px;
+  padding-bottom: 4%;
+}
+
+#trailer {
+  display: flex;
+  margin-top: 50px;
+  margin-bottom: 50px;
+  width: 700px;
+  height: 400px;
+}
+
+#imgvovo {
+  display: flex;
+  width: 800px;
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+
+#img2 img {
+  height: 140px;
+  padding: 0px;
+  margin: 0;
+  position: absolute;
+  top: 2660px;
+  right: 30px;
+  bottom: 10px;
+}
+
+#imgjo {
+  display: flex;
+  width: 110px;
+  padding-bottom: 4%;
+}
+
+#imgper {
+  float: left;
+  margin-left: 70px;
+  margin-right: 20px;
+}
+
+#justify {
+  text-align: justify;
+  margin-top: 16px;
+  margin-right: 60px;
+}
+
+#tempo {
+  margin-top: 60px;
+}
+
+#imgski {
+  display: flex;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  width: 600px;
+}
+
+#img3 img {
+  height: 140px;
+  padding: 0px;
+  margin: 0;
+  position: absolute;
+  top: 2510px;
+  right: 30px;
+  bottom: 10px;
+}
+
+#imgvale {
+  display: flex;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  width: 200px;
+}
+
+#comunas {
+  max-width: 500px;
+  float: left;
+  margin-left: 200px;
+  margin-bottom: 40px;
+}
+
+#capitas {
+  max-width: 400px;
+  float: right;
+  margin-right: 200px;
+  margin-bottom: 40px;
+}
+
+#mapat {
+  margin-top: 350px;
+}
+
+#mapa {
+  max-width: 500px;
+  display: flex;
+  margin-bottom: 20px;
+}
+
+#img4 img {
+  height: 140px;
+  padding: 0px;
+  margin: 0;
+  position: absolute;
+  top: 2670px;
+  right: 30px;
+  bottom: 10px;
+}
+
+#imgnpcl {
+  display: flex;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.npcs {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  margin-left: 100px;
+  margin-right: 100px;
+  margin-bottom: 50px;
+}
+
+.npcs p {
+  margin: auto;
+}
+
+#presente {
+  max-width: 900px;
+  display: flex;
+}
+
+#img5 img {
+  height: 140px;
+  padding: 0px;
+  margin: 0;
+  position: absolute;
+  top: 3850px;
+  right: 30px;
+  bottom: 10px;
+}
+
+#imgcomu {
+  display: flex;
+  margin-bottom: 30px;
+}
+
+#expanded img {
+  max-width: 1000px;
+  display: flex;
+  margin-top: 20px;
+  margin-bottom: 30px;
+}
+
+#zuzu img {
+  max-width: 800px;
+  display: flex;
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+
+#img6 img {
+  height: 140px;
+  padding: 0px;
+  margin: 0;
+  position: absolute;
+  top: 3910px;
+  right: 30px;
+  bottom: 10px;
+}
